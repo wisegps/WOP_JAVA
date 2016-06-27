@@ -10,8 +10,6 @@ import toolkit.Wop;
 public class GetDeviceObdDataList {
 
 	
-	public static String Method_Device_Obd_Datas_List = "wicare.device_obd_datas.list";
-	
 	public static void main(String [] args){
 		Wop.init(TestConfig.appKey, TestConfig.appSecret);//初始化 appkey 和 appsecret 创建应用时可获得
 		String fields = "rcv_time,obd_data";
